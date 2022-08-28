@@ -1,0 +1,19 @@
+.table {
+    border: 3px solid red;
+    caption-side: bottom;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 2rem;
+    color: #fff;
+    vertical-align: top;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.table-bordered > :not(caption) > * {
+    border-width: 1px 0;
+}
+
+.table-bordered > :not(caption) > * > * {
+    border-width: 0 1px;
+}
+

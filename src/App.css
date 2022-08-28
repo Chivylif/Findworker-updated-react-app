@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+.btn1 {
+  border-radius: none;
+}
+
+.btn1:hover {
+  background-color: transparent;
+  border: 2px solid blue;
+  color: black;
+}
+
+.r {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button {
+  padding: 7px;
+  width: 100px;
+  margin-top: 7px;
+}
+
+.formwidth {
+  width: 300px;
+}
+
+.con {
+  width: 60%;
+  padding: 25px;
+  margin: auto;
+  margin-bottom: 60px;
+  border: 2px solid blue;
+}
+
+img {
+  width: 100%;
+}
+
+.wrap {
+  word-wrap: break-word;
+}
+
+.line {
+  
+}
+
